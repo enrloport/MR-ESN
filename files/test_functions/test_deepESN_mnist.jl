@@ -9,10 +9,10 @@ function __do_test_deepESN_mnist!(deepE, args::Dict)
     f = args[:gpu] ? (u) -> CuArray(reshape(u, :, 1)) : (u) -> reshape(u, :, 1)
 
     function _step(t)
-        __update(deepE.esns[1], args[:test_data][:,:,t], f )
+        update(deepE.esns[1], args[:test_data][:,:,t], f )
 
         for i in 2:length(deepE.esns)
-            __update(deepE.esns[i], deepE.esns[i-1].x, f )
+            update(deepE.esns[i], deepE.esns[i-1].x, f )
         end
     end
 
