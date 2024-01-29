@@ -7,4 +7,4 @@ The code available in this repository is linked to the article 'Exploring Deep E
 
 Tips:
 
-- Use your wandb key in the file wandb_key.jl if you want to log in your results.
+- Use your wandb entity and key in the file 'wandb_key.jl' if you want to log in your results.
