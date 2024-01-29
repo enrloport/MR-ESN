@@ -2,7 +2,7 @@
 
 Description:
 
-The code in this repository is associated with the article "Exploring Deep Echo State Networks for Image Classification: A Multi-Reservoir Approach" and consists of the implementation of networks based on Echo State Networks. 
+The code available in this repository is linked to the article 'Exploring Deep Echo State Networks for Image Classification: A Multi-Reservoir Approach'. It includes the implementation of several networks based on Echo State Networks.
 
 
 Tips:
